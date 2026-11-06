@@ -1,0 +1,16 @@
+---
+title: "Assignment 10B — Nobel Prize JSON Analysis"
+author: "Mohd Afwan Shaikh"
+date: "2026-11-06"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+### Project Approach
+
+For this assignment, I plan to use the Nobel Prize API to explore historical patterns in Nobel Prize awards and laureates. My goal is to retrieve the data in JSON format and answer four questions about Nobel Prize categories, award trends over time, and the countries associated with Nobel laureates.
+
+I plan to investigate which Nobel Prize categories have the most awards, how the number of laureates has changed over the decades, which countries have produced the most laureates based on birthplace, and how laureates' birth countries compare with their countries of institutional affiliation at the time of receiving an award. The last question will involve comparing information across different fields and potentially joining multiple datasets.
+
+I will use R and packages such as `httr2`, `jsonlite`, `tidyr`, `dplyr`, and `ggplot2` to retrieve the JSON data, convert nested information into tidy data frames, clean the data, and create tables and visualizations. Some challenges I expect include missing country information, nested JSON structures, differences in country names, and laureates who have received multiple awards. I will address these issues during data cleaning and explain any limitations in my findings.
